@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.ritmoyesencia.app"
+    version   = "0.2">
+
+<name>Notificacion</name>
+
+<description>
+Notify system
+</description>
+
+<author href="http://fb.com/andresblanco3l" email="gz3ln3n3@gmail.com">
+Andrés Blanco
+</author>
+
+<!--Plugin de notificaciones --> 
+<gap:plugin name="com.phonegap.plugins.pushplugin"/> 
+<access origin="*" />
+
+</widget>
