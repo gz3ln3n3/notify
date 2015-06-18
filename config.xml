@@ -18,13 +18,13 @@
     <gap:plugin name="com.phonegap.plugins.pushplugin"/>
     <access origin="*" />
 	
-	<uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
-	<uses-permission android:name="android.permission.WAKE_LOCK" />
-	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<gap:uses-permission android:name="android.permission.INTERNET" />
+	<gap:uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<gap:uses-permission android:name="android.permission.WAKE_LOCK" />
+	<gap:uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 	 
-	<permission android:name="net.sgoliver.android.newgcm.permission.C2D_MESSAGE"
+	<gap:permission android:name="net.sgoliver.android.newgcm.permission.C2D_MESSAGE"
 		 android:protectionLevel="signature" />
-	<uses-permission android:name="net.sgoliver.android.newgcm.permission.C2D_MESSAGE" />
+	<gap:uses-permission android:name="net.sgoliver.android.newgcm.permission.C2D_MESSAGE" />
 	
 </widget>
