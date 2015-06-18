@@ -87,4 +87,4 @@ var app = {
             snd.play(); 
         } 
     } 
-}; - See more at: http://www.phonegapspain.com/tutorial/notificaciones-push-con-phonegap-y-android/#sthash.d0wGpF9d.dpuf
+};
